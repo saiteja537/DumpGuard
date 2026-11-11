@@ -12,7 +12,7 @@ $ErrorActionPreference = 'Stop'
 $ProductName = 'DumpGuard'
 $Version     = '1.0'
 $Developer   = 'Guddanti Sai Teja'
-$LinkedIn    = 'https://www.linkedin.com/in/YOUR-PROFILE'   # <-- paste your LinkedIn URL here
+$LinkedIn    = 'https://www.linkedin.com/in/sai-teja-628082288'   # <-- paste your LinkedIn URL here
 $Email       = 'saitejaguddanti999@gmail.com'
 
 function Get-Banner {
