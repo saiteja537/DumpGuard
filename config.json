@@ -1,6 +1,6 @@
 {
   "watchPaths": [
-    "C:\\Users\\SVC-CORP-GFSBI3P\\AppData\\Local\\CrashDumps"
+    "C:\\CrashDumps"
   ],
   "extensions": [".dmp"],
   "recurse": false,
@@ -8,6 +8,6 @@
   "keepNewestCount": 0,
   "scanIntervalSeconds": 1800,
   "dryRun": true,
-  "actionLogFolder": "D:\\DumpGuard\\ActionLogs",
+  "actionLogFolder": "C:\\ProgramData\\DumpGuard\\ActionLogs",
   "actionLogKeepDays": 90
 }
