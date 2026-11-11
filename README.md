@@ -22,7 +22,7 @@
 
 ## Configure before installation
 
-Edit `config.json`. The committed configuration is a safe example: it watches `C:\\CrashDumps`, writes logs under `C:\\ProgramData\\DumpGuard\\ActionLogs`, and has `dryRun` enabled. Create or change these directories to match your environment.
+Edit `config.json`. The committed configuration is a safe example: it watches `C:\CrashDumps`, writes logs under `C:\ProgramData\DumpGuard\ActionLogs`, and has `dryRun` enabled. Create or change these directories to match your environment.
 
 | Setting | Description |
 |---|---|
@@ -44,7 +44,7 @@ Open an elevated (Run as Administrator) PowerShell window in the project directo
 
 ```powershell
 Set-ExecutionPolicy -Scope Process Bypass
-.\\DumpGuard-Control.ps1 -Action Install
+.\DumpGuard-Control.ps1 -Action Install
 ```
 
 The installer registers a scheduled task named `DumpGuard` to run as `SYSTEM`, then starts it.
@@ -52,11 +52,11 @@ The installer registers a scheduled task named `DumpGuard` to run as `SYSTEM`, t
 ## Manage
 
 ```powershell
-.\\DumpGuard-Control.ps1 -Action Status
-.\\DumpGuard-Control.ps1 -Action Start
-.\\DumpGuard-Control.ps1 -Action Stop
-.\\DumpGuard-Control.ps1 -Action Restart
-.\\DumpGuard-Control.ps1 -Action Uninstall
+.\DumpGuard-Control.ps1 -Action Status
+.\DumpGuard-Control.ps1 -Action Start
+.\DumpGuard-Control.ps1 -Action Stop
+.\DumpGuard-Control.ps1 -Action Restart
+.\DumpGuard-Control.ps1 -Action Uninstall
 ```
 
 Run the script without `-Action` to open the interactive menu.
