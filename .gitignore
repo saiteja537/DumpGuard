@@ -1,0 +1,5 @@
+# DumpGuard runtime output
+ActionLogs/
+DumpGuard_*.log
+status.txt
+*.tmp
